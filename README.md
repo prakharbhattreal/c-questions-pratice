@@ -10,4 +10,3 @@ gcc file_name.c -o file_name
 
 ## Why Use calloc() Instead of malloc()?
 **Zero Initialization**: Unlike malloc(), calloc() initializes all allocated memory to 0.
-
