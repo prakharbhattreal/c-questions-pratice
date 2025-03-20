@@ -14,3 +14,8 @@ gcc file_name.c -o file_name
 ## Union
 A union in C is similar to a struct, but with one key difference:
 ➡️ In a union, all members share the same memory location. This means only one member can store a value at any given time.
+
+## library used
+ > stdio.h
+ > stdlib.h
+ > string.h
