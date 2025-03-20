@@ -23,28 +23,26 @@ int main(){
     printf("%d\n", N2.data);
     printf("%d\n", N3.data);
 
-    printf("\nN1 using N2 and N3");
+    printf("\nN1 using N2 and N3\n");
 
     // N1 using N2 and N3
     printf("%d\n", N2.prev->data);   // 100
     printf("%d\n", N3.next->data);   // 100
 
-    printf("\nN1 using N2 and N3");
+    printf("\nN1 using N2 and N3\n");
 
     // N1 using N2 and N3
     printf("%d\n", N1.next->data);  // 200
     printf("%d\n", N3.prev->data);  // 200
 
-    printf("\nN1 using N2 and N3");
+    printf("\nN1 using N2 and N3\n");
 
     // N1 using N2 and N3
     printf("%d\n", N2.next->data);  // 300
     printf("%d\n", N1.prev->data);  // 300
 
-    printf("\n");
-
     // also
-    printf("Also this :\n");
+    printf("\nAlso this :\n");
     printf("%d\n", N2.next->next->data);  // 100 [N1 data] n2.next target n3 then again next target n1
 
     return 0;
