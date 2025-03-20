@@ -7,3 +7,7 @@ command you required to run these .c files
 gcc file_name.c -o file_name
 ./file_name
 ```
+
+## Why Use calloc() Instead of malloc()?
+**Zero Initialization**: Unlike malloc(), calloc() initializes all allocated memory to 0.
+
