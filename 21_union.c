@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Defining a union
 union Data {
@@ -20,7 +21,7 @@ int main() {
     printf("Integer after float assignment: %d\n", d.i); // Overwritten
 
     // Assign string value (overwrites previous value)
-    sprintf(d.str, "Hello");
+    strcpy(d.str, "Hello");
     printf("String: %s\n", d.str);
     printf("Float after string assignment: %.2f\n", d.f); // Overwritten
 
