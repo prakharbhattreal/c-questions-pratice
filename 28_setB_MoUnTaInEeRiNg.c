@@ -6,7 +6,7 @@ int main(){
     {
         if (i%2==0)
         {
-            if (ch[i]>=97 && ch[i]<=122)
+            if (ch[i]>=97 && ch[i]<=122) 
             {
                 ch[i]=ch[i]-32;
             }
