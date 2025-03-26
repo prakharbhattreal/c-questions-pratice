@@ -15,6 +15,9 @@ gcc file_name.c -o file_name
 A union in C is similar to a struct, but with one key difference:
 ➡️ In a union, all members share the same memory location. This means only one member can store a value at any given time.
 
+## 📌 Call by Reference in C
+Call by reference allows a function to modify the actual values of variables passed as arguments using pointers.
+
 ## library used
  > 1. stdio.h .
  > 2. stdlib.h . 
