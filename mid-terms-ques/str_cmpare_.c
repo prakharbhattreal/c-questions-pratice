@@ -10,8 +10,21 @@ int xStrcmp(char *a, char *b){
 }
 
 int main(){
-    char str1[]= "apple";
-    char str2[] = "apple";
-    printf("%d", xStrcmp(str1,str2));
+    char str1[50];
+    char str2[50];
+
+    printf("Enter first string :");
+    scanf("%s", str1);
+    printf("Enter second string :");
+    scanf("%s", str2);
+
+    if (xStrcmp(str1, str2))
+    {
+        printf("Both strings are same\n");
+    }
+    else{
+        printf("Strings are not same\n");
+    }
+    
    return 0;
 }
