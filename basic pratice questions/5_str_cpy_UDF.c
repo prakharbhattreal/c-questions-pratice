@@ -2,8 +2,6 @@
  
 // User-defined function to copy a string
 void copyString(char *destination, char *source) {
-    int i = 0;
-    
     // Copy each character from source to destination till its end
     while (*source != '\0') { // Loop until null character
         *destination = *source; // Copy character
