@@ -1,0 +1,4 @@
+This is a sample data file used for testing file operations in C. "
+        "The content here spans multiple lines and has more than one hundred "
+        "and fifty characters. This ensures that seeking to byte offset 50 and "
+        "reading the next 100 characters works properly.
