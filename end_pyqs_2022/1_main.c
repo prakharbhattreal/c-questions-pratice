@@ -25,7 +25,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
 
     // Remove trailing newline added by fgets
-    size_t len = strlen(str);
+    char len = strlen(str);
     if (str[len - 1] == '\n') {
         str[len - 1] = '\0';
     }
