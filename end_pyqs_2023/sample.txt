@@ -1,4 +1,5 @@
 Python is a powerful programming language.
 It is widely used in data science and AI.
 This file contains multiple lines.
+
 Each line ends with a newline character.
