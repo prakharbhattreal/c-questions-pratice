@@ -22,13 +22,7 @@ int main() {
     char str[100], reversed[100];
 
     printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);
-
-    // Remove trailing newline added by fgets
-    size_t len = strlen(str);
-    if (str[len - 1] == '\n') {
-        str[len - 1] = '\0';
-    }
+    gets(str);
 
     // Call UDF to reverse the string
     reverseString(str, reversed);

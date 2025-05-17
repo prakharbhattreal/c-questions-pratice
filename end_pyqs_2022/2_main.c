@@ -20,21 +20,12 @@ int main()
     printf("Enter names of %d emplyees :\n", n);
     for (int i = 0; i < n; i++)
     {
-        fgets(employees[i], sizeof(employees[i]), stdin);
-        size_t len = strlen(employees[i]);
-        if (employees[i][len - 1] == '\n')
-        {
-            employees[i][len - 1] = '\0';
-        }
+        gets(employees[i]);
     }
 
     // Read name to be searched
     printf("Enter the name to search :");
-    fgets(searchName, sizeof(searchName), stdin);
-    size_t len = strlen(searchName);
-    if (searchName[len - 1] == '\n') {
-        searchName[len - 1] = '\0'; // Remove newline
-    }
+    gets(searchName);
 
     // Search Login
     for (int i = 0; i < n; i++)
