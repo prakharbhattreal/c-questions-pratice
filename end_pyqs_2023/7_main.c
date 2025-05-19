@@ -21,7 +21,7 @@ char toUpperCase(char ch)
 int main()
 {
     FILE *fp;
-    char str; // 100 characters + null terminator
+    char str; 
     int count = 0;
 
     // file opening

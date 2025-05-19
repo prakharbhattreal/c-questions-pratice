@@ -1,0 +1,1 @@
+y 1970s by Dennis Ritchie. It is widely used for system programming, operating systems like UNIX, embedded systems, and teaches core programming concepts like memory management and control structures.
