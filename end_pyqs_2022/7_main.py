@@ -6,7 +6,6 @@ resultant value by evaluating the base to its
 
 exponent. (Ex. 23 = 8, 2 is the base and 3
 is the exponent).
-
 """
 
 base = int(input("Enter the base (positive integer): "))
