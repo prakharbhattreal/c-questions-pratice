@@ -18,6 +18,6 @@ int main()
     int GCD = gcd(num1, num2);
 
     int LCM = (num1 * num2) / GCD;
-    printf("GCD of %d and %d is %d\n", num1, num2, LCM);
+    printf("LCM of %d and %d is %d\n", num1, num2, LCM);
     return 0;
 }
