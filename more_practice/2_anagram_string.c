@@ -16,9 +16,9 @@ int countChar(char *str, int count[26])
 {
     for (int i = 0; str[i] != '\0'; i++)
     {
-        if ((*str >= 'A' && *str <= 'Z') || (*str >= 'a' && *str <= 'z'))
+        if ((str[i]>= 'A' && str[i]<= 'Z') || (str[i]>= 'a' && str[i]<= 'z'))
         {
-            char ch = (*str >= 'A' && *str <= 'Z') ? str[i] + 32 : str[i];
+            char ch = (str[i]>= 'A' && str[i]<= 'Z') ? str[i] + 32 : str[i];
             count[ch-'a']++;
         }
     }
