@@ -20,6 +20,11 @@ int main()
     scanf("%d", &m);
 
     int *arr1 = (int *)malloc(m * sizeof(int));
+    if (arr1 == NULL) {
+        printf("Memory allocation failed.\n");
+        return 1;
+    }
+    
 
     printf("Enter elements of array 1:\n");
     for (int i = 0; i < m; i++)
@@ -31,6 +36,11 @@ int main()
     scanf("%d", &n);
 
     int *arr2 = (int *)malloc(n * sizeof(int));
+    if (scanf("%d", &n) != 1 || n <= 0) {
+        printf("Invalid input for array 2 size.\n");
+        free(arr1);
+        return 1;
+    }
 
     printf("Enter elements of array 2:\n");
     for (int i = 0; i < m; i++)
@@ -39,6 +49,13 @@ int main()
     }
 
     int *arr3 = (int *)malloc(((m > n) ? n : m) * sizeof(int));
+    if (arr3 == NULL) {
+        printf("Memory allocation failed.\n");
+        free(arr1);
+        free(arr2);
+        return 1;
+    }
+    
     int k = 0;
 
     for (int i = 0; i < m; i++)
