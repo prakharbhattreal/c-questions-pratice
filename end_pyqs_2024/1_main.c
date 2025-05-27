@@ -4,7 +4,7 @@
     Write a program in C to remove all whitespaces in a String and print it on
     the screen. For example given the following string as
     input: Keep Learning Dear Students" and the program should
-    generate: "KeepLearningDearStudents" as output
+    generate: "KeepLearningDearStudents" as output 
 */
 
 void removeWhitespaces(char *str)
