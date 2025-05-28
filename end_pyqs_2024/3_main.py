@@ -5,7 +5,7 @@ uppercase, lowercase, or capitalizing the first letter of each word.
 Additionally, ensure that the program is user-friendly and provides clear
 instructions and prompts to the user."""
 
-with open("C:\\Users\\Basant\\Documents\\Coding\\0 btech\\1. C\\cques\\end_pyqs_2024\\input.txt", "r") as f:
+with open("C:\\Users\\😂😂\\input.txt", "r") as f:
     content = f.read()
 
     # taking input which tranformation is requried by user
