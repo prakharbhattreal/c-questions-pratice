@@ -15,3 +15,4 @@ print("Number of lines in sample.txt:", line_count)
 with open("sample.txt", "r") as f:
     content=f.readlines()  # readlines reads all lines at once into a list
     print("Number of lines in sample.txt:", len(content))
+    
