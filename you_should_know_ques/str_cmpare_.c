@@ -2,11 +2,13 @@
 #include <string.h>
 
 int xStrcmp(char *a, char *b){
-    while (*a && (*a == *b)) {
+    while (*a && *b) {
+        if (*a != *b)
+            return 0;
         a++;
         b++;
     }
-    return (*a - *b)==0?1:0;  // returns 1 only if same string passes
+    return (*a == '\0' && *b == '\0');
 }
 
 int main(){
