@@ -9,7 +9,6 @@ int main() {
     char searchTerm[] = "OpenAI";  // String to search for
     int lineNumber = 0;
     int found = 0;
-
     if (fp == NULL) {
         printf("Error opening file.\n");
         return 1;

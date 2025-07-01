@@ -17,6 +17,8 @@ void copyStr(char *dest, char *source)
     dest[indexCount]='\0';
 }
 
+//test
+
 int main()
 {
     char str1[200], str2[200];
