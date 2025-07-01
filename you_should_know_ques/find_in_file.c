@@ -13,6 +13,7 @@ int main() {
         printf("Error opening file.\n");
         return 1;
     }
+    //
 
     while (fgets(line, sizeof(line), fp) != NULL) {
         lineNumber++;
